@@ -1,0 +1,30 @@
+body {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather__city {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.weather__temp {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.weather__desc {
+    font-size: 1.5rem;
+}
